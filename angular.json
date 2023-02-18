@@ -25,12 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "PIF_Castellano/node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
               
             ],
             "scripts": [
-              "PIF_Castellano/node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
