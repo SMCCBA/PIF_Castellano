@@ -1,9 +1,13 @@
-div{
-    background-color: white;
 
+div{
+    padding: 2px;
+    background-color: rgb(175, 175, 175); 
+    
+    
 }
 
 app-rs{
     float: right;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
 }

@@ -1,10 +1,35 @@
     div {
-        background-color: chocolate;
+        background-color: rgb(175, 175, 175);
         text-align: center;
         }
     
     #nombre{
+        font-size: large;
         font-weight: bolder;
-        margin-top: 40%;
+        margin-top: 20%;
         margin-left: 5px;
     }   
+    @media (min-width: 576px){
+        #FPerfil{
+            position: absolute;
+            border-radius: 100%;
+            width: 15%;
+            box-shadow: 4px 4px 4px grey;
+            left: 3%;
+            top: 580px;
+        }
+    }
+        @media (max-width: 575px){
+            #FPerfil{
+                position: absolute;
+                border-radius: 100%;
+                width: 30%;
+                box-shadow: 4px 4px 4px grey;
+                left: 33%;
+                top: 550px;
+            }
+    }
+
+    .row{
+        padding: 20px;
+    }
