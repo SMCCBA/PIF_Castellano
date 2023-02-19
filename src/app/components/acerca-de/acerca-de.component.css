@@ -1,35 +1,47 @@
     div {
         background-color: rgb(175, 175, 175);
         text-align: center;
-        }
-    
-    #nombre{
+    }
+
+    #nombre {
         font-size: large;
         font-weight: bolder;
         margin-top: 20%;
         margin-left: 5px;
-    }   
-    @media (min-width: 576px){
-        #FPerfil{
+    }
+
+    @media (min-width: 576px) {
+        #FPerfil {
             position: absolute;
             border-radius: 100%;
             width: 15%;
             box-shadow: 4px 4px 4px grey;
             left: 3%;
             top: 580px;
+            border-style: solid;
+            border-top-color: cadetblue;
+            border-left-color: rgba(12, 12, 134, 0.61);
+            border-bottom-color: rgb(55, 43, 226);
+            border-right-color: rgb(0, 88, 139);
         }
     }
-        @media (max-width: 575px){
-            #FPerfil{
-                position: absolute;
-                border-radius: 100%;
-                width: 30%;
-                box-shadow: 4px 4px 4px grey;
-                left: 33%;
-                top: 550px;
-            }
+
+    @media (max-width: 575px) {
+        #FPerfil {
+            position: absolute;
+            border-radius: 100%;
+            width: 30%;
+            box-shadow: 4px 4px 4px grey;
+            border-style: solid;
+            border-top-color: cadetblue;
+            border-left-color: rgba(12, 12, 134, 0.61);
+            border-bottom-color: rgb(55, 43, 226);
+            border-right-color: rgb(0, 88, 139);
+            left: 33%;
+            top: 550px;
+        }
     }
 
-    .row{
+    .row {
         padding: 20px;
     }
