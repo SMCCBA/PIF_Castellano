@@ -9,12 +9,15 @@
         margin-top: 20%;
         margin-left: 5px;
     }
+    #fe{
+        font-family: 'Lucida Sans';
+    }
 
     @media (min-width: 576px) {
         #FPerfil {
             position: absolute;
             border-radius: 100%;
-            width: 15%;
+            width: 17%;
             box-shadow: 4px 4px 4px grey;
             left: 3%;
             top: 580px;
@@ -30,7 +33,7 @@
         #FPerfil {
             position: absolute;
             border-radius: 100%;
-            width: 30%;
+            width: 40%;
             box-shadow: 4px 4px 4px grey;
             border-style: solid;
             border-top-color: cadetblue;
@@ -45,3 +48,5 @@
     .row {
         padding: 20px;
     }
+    
+    
